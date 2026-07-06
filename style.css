@@ -1,7 +1,14 @@
+* {
+    /*This will be used for all elements on the page, so we can set some default styles here. */
+}
+
+
+
+
 body {
-    background-color: black;
+    background-color: rgb(222, 180, 180);
 }
 
 p {
-    color: black;
+    color: rgb(219, 0, 0);
 }

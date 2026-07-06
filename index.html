@@ -6,13 +6,21 @@
     <meta name="author" content="Cameron Jones">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <title>My Web Page</title> 
 </head>
+<div class="w3-container">
+    <button class="w3-button w3-black" onclick="myFunction()">Dark Mode</button>    
+</div>
+
+<script>
+function myFunction() {
+  let x = document.body;
+  x.classList.toggle("w3-black");
+}
+</script>
+
 <body>
-    <h1>Cameron Jones</h1>
-    <p>Thanks for stopping by!</p>
-    <p>This is a simple test to test if github connected to the server.</p>
-    <nav>Test</nav>
 </body>
 </html>
   
